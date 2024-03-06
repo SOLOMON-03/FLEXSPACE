@@ -9,7 +9,7 @@ export const Header = () => {
     return (
         <div className="bg-[#764c9b] p-3 flex justify-between items-center">
             <div>
-                <img src={logo} alt="" className="w-64" />
+                <img src={logo} alt="" className="w-64 max-md:w-52" />
             </div>
             <div className="text-white">
                 <ul
