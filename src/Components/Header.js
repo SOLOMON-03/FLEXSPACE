@@ -19,7 +19,7 @@ export const Header = () => {
                             : "max-md:flex-col max-md:justify-center right-[-490px]"
                         }`}
                 >
-                    <li className="hover:text-[#fb35c5] cursor-pointer ">
+                    <li className="hover:text-[#fb35c5] cursor-pointer">
                         <NavLink
                             to="/"
                             className={({ isActive }) =>
