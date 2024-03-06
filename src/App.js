@@ -3,6 +3,7 @@ import { Pricing } from "./Pages/Pricing";
 import { Location } from "./Pages/Location";
 import { Home } from "./Pages/Home";
 import { Header } from "./Components/Header";
+import { SignIn } from "./Pages/SignIn";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/location" element={<Location />} />
         <Route path="/pricing" element={<Pricing />} />
+        <Route path="/sign-in" element={<SignIn />} />
         <Route
           path="*"
           element={<Navigate to="/" replace />}
