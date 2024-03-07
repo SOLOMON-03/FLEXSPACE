@@ -3,13 +3,15 @@ import logo from "../Assets/Logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from "react-router-dom";
+import { Dropdown } from "./Dropdown";
 
 export const Header = () => {
     const [Icon, setIcon] = useState(false);
-    return (
-        <div className="bg-[#764c9b] p-3 flex justify-between items-center">
+    return (<>
+        <div className="bg-[#764c9b] p-3 ">
+            <div className="flex justify-between items-center max-w-6xl mx-auto">
             <div>
-                <img src={logo} alt="" className="w-64" />
+                <img src={logo} alt="" className="w-64 max-md:w-52" />
             </div>
             <div className="text-white">
                 <ul
@@ -19,7 +21,7 @@ export const Header = () => {
                             : "max-md:flex-col max-md:justify-center right-[-490px]"
                         }`}
                 >
-                    <li className="hover:text-[#fb35c5] cursor-pointer ">
+                    <li className="hover:text-[#fb35c5] cursor-pointer">
                         <NavLink
                             to="/"
                             className={({ isActive }) =>
@@ -38,15 +40,15 @@ export const Header = () => {
                             }
                             onClick={() => setIcon(false)}
                         >
-                            Location
+                            <Dropdown />
                         </NavLink>
                     </li>
                     <li className="hover:text-[#fb35c5] cursor-pointer ">
                         <NavLink
                             to="/pricing"
                             className={({ isActive }) =>
-                                isActive ? "text-[#fb35c5] font-semibold" : ""
-                            }
+                            isActive ? "text-[#fb35c5] font-semibold" : ""
+                        }
                             onClick={() => setIcon(false)}
                         >
                             Pricing
@@ -56,8 +58,8 @@ export const Header = () => {
                         <NavLink
                             to="/sign-in"
                             className={({ isActive }) =>
-                                isActive ? "text-[#fb35c5] font-semibold" : ""
-                            }
+                            isActive ? "text-[#fb35c5] font-semibold" : ""
+                        }
                             onClick={() => setIcon(false)}
                         >
                             SignIn
@@ -72,6 +74,8 @@ export const Header = () => {
                     onClick={() => setIcon(!Icon)}
                 />
             </div>
+            </div>
         </div>
+        </>
     );
 };
