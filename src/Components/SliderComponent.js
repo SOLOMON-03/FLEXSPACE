@@ -41,7 +41,7 @@ export const SliderComponent = () => {
     };
     const [Icon, setIcon] = useState(false);
     return (
-        <div className='max-w-screen h-[680px] w-full m-auto py-16 relative group max-md:h-[480px]'>
+        <div className='max-w-screen h-[680px] w-full m-auto py-16 relative group max-md:h-[480px] z-[-1]'>
             <div
                 style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
                 className='w-full h-full bg-center bg-cover duration-500'
