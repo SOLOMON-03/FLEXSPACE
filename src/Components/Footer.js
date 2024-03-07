@@ -1,9 +1,11 @@
 import React from 'react';
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
-
+import logo from "../Assets/Logo.png"
+import 'mdb-react-ui-kit/dist/css/mdb.min.css';
 const Footer = () => {
   return (
-    <MDBFooter style={{background:"#7e49ac"}} className='text-center text-lg-start text-muted bottom-0'>
+    <div>
+    <MDBFooter style={{background:"#7e49ac"}} className='text-center text-lg-start text-muted '>
       <section style={{color:"white"}} className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
         <div className='me-5 d-none d-lg-block' >
           <span>Get connected with us on social networks:</span>
@@ -36,8 +38,7 @@ const Footer = () => {
           <MDBRow className='mt-3'>
             <MDBCol md="3" lg="4" xl="3" className='mx-auto mb-4'>
               <h6 className='text-uppercase fw-bold mb-4'>
-                <MDBIcon icon="gem" className="me-3" />
-                Health Care
+                <img src={logo}/>
               </h6>
               <p>
                 Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
@@ -121,6 +122,7 @@ const Footer = () => {
         </a>
       </div>
     </MDBFooter>
+    </div>
   );
 } 
 
