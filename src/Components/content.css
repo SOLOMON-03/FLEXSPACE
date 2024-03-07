@@ -1,0 +1,12 @@
+.image{
+    /* width: 300px;
+    height: 300px; */
+    margin-left: 150px;
+    box-shadow: #7e49ac 20px 20px;
+    /* box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
+}
+
+.text-content{
+    margin-top: 50px;
+    font-size: larger;
+}
