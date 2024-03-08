@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Logo from "../Assets/Logo.png";
 import { NavLink } from "react-router-dom";
 import Button from "./Button";
+import  {SignIn}  from "../Pages/SignIn";
 import {
     faBarsStaggered,
     faChevronDown,
@@ -108,7 +109,7 @@ export const Header = () => {
                         </li>
                         <li>
                             <div>
-                                <Button />
+                                <SignIn />
                             </div>
                         </li>
                     </ul>
