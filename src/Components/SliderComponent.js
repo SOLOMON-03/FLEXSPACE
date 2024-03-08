@@ -1,24 +1,68 @@
 import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState, useEffect} from 'react'
+import office1 from '../Assets/office1.jpg'
+import office2 from '../Assets/office2.jpg'
+import office3 from '../Assets/office3.jpg'
+import office4 from '../Assets/office4.jpg'
+import office5 from '../Assets/office5.jpg'
+import office6 from '../Assets/office6.jpg'
+import office7 from '../Assets/office7.jpg'
+import office8 from '../Assets/office8.jpg'
+import office9 from '../Assets/office9.jpg'
+import office10 from '../Assets/office10.jpg'
+import office11 from '../Assets/office11.jpg'
+import office12 from '../Assets/office12.jpg'
+import office13 from '../Assets/office13.jpg'
+import office14 from '../Assets/office14.jpg'
+import office15 from '../Assets/office15.jpg'
 
 const SliderComponent = () => {
     const slides = [
         {
-            url: 'https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2620&q=80',
+            url: office1,
         },
         {
-            url: 'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80',
+            url: office2,
         },
         {
-            url: 'https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80',
-        },
-
-        {
-            url: 'https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2253&q=80',
+            url: office3,
         },
         {
-            url: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80',
+            url: office4,
+        },
+        {
+            url: office5,
+        },
+        {
+            url: office6,
+        },
+        {
+            url: office7,
+        },
+        {
+            url: office8,
+        },
+        {
+            url: office9,
+        },
+        {
+            url: office10,
+        },
+        {
+            url: office11,
+        },
+        {
+            url: office12,
+        },
+        {
+            url: office13,
+        },
+        {
+            url: office14,
+        },
+        {
+            url: office15,
         },
     ];
     const [currentIndex, setCurrentIndex] = useState(1);
@@ -48,7 +92,7 @@ const SliderComponent = () => {
     }
     return (
         <div className='max-w-screen h-[680px] w-full m-auto py-16 relative group max-md:h-[480px] cursor-pointer'>    
-            <div style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
+            <div style={{ backgroundImage: `url(${slides[currentIndex].url})`, objectFit: 'cover' }}
                 className='w-full h-full bg-center bg-cover duration-500'></div>
             <Arrow direction="left" />
             <Arrow direction="right" />
