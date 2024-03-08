@@ -1,11 +1,11 @@
 import React from 'react'
-import Footer from '../Components/Footer'
-import { SliderComponent } from '../Components/SliderComponent'
+import Content from '../Components/Content'
+import SliderComponent from '../Components/SliderComponent'
 export const Home = () => {
   return (
     <div>
+      <Content />
       <SliderComponent />
-      <Footer/>
     </div>
   )
 }
