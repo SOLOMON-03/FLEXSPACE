@@ -5,8 +5,8 @@ export const links = [
         sublinks: [
             {
                 sublink: [
-                    { name: "Coimbatore", link: "/" },
-                    { name: "Chennai", link: "/" },
+                    { name: "Delhi", link: "/location" },
+                    { name: "Bangalore", link: "/" },
                 ],
             },
         ],
