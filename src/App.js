@@ -6,7 +6,7 @@ import { Header } from "./Components/Header";
 import { SignIn } from "./Pages/SignIn";
 import { Footer } from "./Components/Footer";
 import { About } from "./Pages/About";
-
+import Location1 from "./Pages/Location1";
 function App() {
   return (
     <BrowserRouter>
@@ -14,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/location" element={<Location />} />
+        <Route path="/location1" element={<Location1 />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/about" element={<About />} />
         <Route path="/sign-in" element={<SignIn />} />

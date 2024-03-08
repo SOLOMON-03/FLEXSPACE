@@ -16,7 +16,7 @@ import {
 import logo from "../Assets/Logo.png";
 export const Footer = () => {
     return (
-        <div className="bg-[#6c34af] text-white mt-10">
+        <div className="bg-[#6c34af] text-white mt-[300px]">
             <div className="max-w-6xl mx-auto">
                 <div>
                     <div className="flex justify-between p-3 max-[798px]:justify-center">
