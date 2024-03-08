@@ -1,4 +1,4 @@
-import { faChevronLeft, faChevronRight, faCircle } from '@fortawesome/free-solid-svg-icons';
+import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState, useEffect} from 'react'
 
