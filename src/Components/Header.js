@@ -79,7 +79,7 @@ export const Header = () => {
                                 </span>
                             </p>
                             {open && (
-                                <div className="flex justify-center items-center md:absolute md:bg-[#5E0094] md:w-60 md:top-[4.8rem]">
+                                <div className="flex justify-center items-center md:absolute md:bg-[#5E0094] md:w-60 md:top-[3.4rem]">
                                     {links.map((link) => (
                                         <div className="cursor-pointer">
                                             {open && link.submenu && (
