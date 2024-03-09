@@ -6,8 +6,18 @@ import { Header } from "./Components/Header";
 import { SignIn } from "./Pages/SignIn";
 import { Footer } from "./Components/Footer";
 import { About } from "./Pages/About";
+import Aos from "aos";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    Aos.init({
+      once: true,
+      disable: "phone",
+      duration: 700,
+      easing: "ease-out-cubic",
+    });
+  }, []);
   return (
     <BrowserRouter>
       <Header />

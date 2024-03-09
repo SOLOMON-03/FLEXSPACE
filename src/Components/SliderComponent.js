@@ -69,7 +69,7 @@ const SliderComponent = () => {
     useEffect(()=>{
         const autoPlay = setInterval(()=>{
             nextSlide()
-        },2000)
+        },5000)
         return ()=> clearInterval(autoPlay)
     },[currentIndex])
 
