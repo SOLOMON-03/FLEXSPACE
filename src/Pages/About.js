@@ -5,7 +5,7 @@ import './about.css'
 export const About = () => {
   return (
     <div className='about-content' >
-      <img style={{width:'100%', height:'450px'}}src={img} alt='image'/>
+      <img style={{width:'100%', height:'450px'}}src={img} alt=''/>
       <h1 className='centered'>About Us</h1>
       <div className="mt-[50px] text-center max-w-4xl mx-auto">
         <h4 className="text-4xl text-orange-500">COWORKING SPACE IN  DELHI</h4>

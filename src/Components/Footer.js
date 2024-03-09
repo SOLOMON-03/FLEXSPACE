@@ -25,24 +25,24 @@ export const Footer = () => {
                         </div>
                         <div>
                             <div className="flex gap-2">
-                                <a href="#" className="me-4 text-reset" data-aos="zoom-in-down" data-aos-delay="100" data-aos-duration="1000" data-aos-easing='ease-in-out'>
+                                <p className="me-4 text-reset" data-aos="zoom-in-down" data-aos-delay="100" data-aos-duration="1000" data-aos-easing='ease-in-out'>
                                     <FontAwesomeIcon icon={faFacebook} />
-                                </a>
-                                <a href="#" className="me-4 text-reset" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-easing='ease-in-out'>
+                                </p>
+                                <p className="me-4 text-reset" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="1000" data-aos-easing='ease-in-out'>
                                     <FontAwesomeIcon icon={faTwitter} />
-                                </a>
-                                <a href="#" className="me-4 text-reset" data-aos="zoom-in-down" data-aos-delay="500" data-aos-duration="1000" data-aos-easing='ease-in-out'>
+                                </p>
+                                <p className="me-4 text-reset" data-aos="zoom-in-down" data-aos-delay="500" data-aos-duration="1000" data-aos-easing='ease-in-out'>
                                     <FontAwesomeIcon icon={faGoogle} />
-                                </a>
-                                <a href="#" className="me-4 text-reset" data-aos="zoom-in-down" data-aos-delay="700" data-aos-duration="1000" data-aos-easing='ease-in-out'>
+                                </p>
+                                <p className="me-4 text-reset" data-aos="zoom-in-down" data-aos-delay="700" data-aos-duration="1000" data-aos-easing='ease-in-out'>
                                     <FontAwesomeIcon icon={faInstagram} />
-                                </a>
-                                <a href="#" className="me-4 text-reset" data-aos="zoom-in-down" data-aos-delay="900" data-aos-duration="1000" data-aos-easing='ease-in-out'>
+                                </p>
+                                <p className="me-4 text-reset" data-aos="zoom-in-down" data-aos-delay="900" data-aos-duration="1000" data-aos-easing='ease-in-out'>
                                     <FontAwesomeIcon icon={faLinkedin} />
-                                </a>
-                                <a href="#" className="me-4 text-reset" data-aos="zoom-in-down" data-aos-delay="1100" data-aos-duration="1000" data-aos-easing='ease-in-out'>
+                                </p>
+                                <p className="me-4 text-reset" data-aos="zoom-in-down" data-aos-delay="1100" data-aos-duration="1000" data-aos-easing='ease-in-out'>
                                     <FontAwesomeIcon icon={faGithub} />
-                                </a>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -93,9 +93,9 @@ export const Footer = () => {
                 <div>
                     <div className="text-center p-4" >
                         © 2024 Copyright :
-                        <a className="text-reset fw-bold" href="" >
+                        <p className="text-reset fw-bold" >
                             &nbsp;Flexspace.com
-                        </a>
+                        </p>
                     </div>
                 </div>
             </div>
