@@ -10,6 +10,7 @@
     color: #fff;
     border: 1px solid #333;
     margin-left: 400px;
+    margin-top: 100px;
   }
   
   .title {
@@ -23,7 +24,7 @@
     color: white;
   }
   
-  .title::before {
+  /* .title::before {
     width: 18px;
     height: 18px;
   }
@@ -43,7 +44,7 @@
     border-radius: 50%;
     left: 0px;
     background-color: white;
-  }
+  } */
   
   .message, 
   .signin {
