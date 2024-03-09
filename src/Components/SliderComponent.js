@@ -84,9 +84,9 @@ const SliderComponent = () => {
         return <div className='md:hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] text-2xl rounded-full p-2 text-white  bg-[#764c9b]'
             style={{[direction]:"20px"}}>
                 { direction === "left" ?
-                (<FontAwesomeIcon icon={faChevronLeft} onClick={prevSlide} size={30} />)
+                (<FontAwesomeIcon icon={faChevronLeft} onClick={prevSlide} size='lg' />)
                 :
-                (<FontAwesomeIcon icon={faChevronRight} onClick={nextSlide} size={30} />)
+                (<FontAwesomeIcon icon={faChevronRight} onClick={nextSlide} size='lg' />)
                 }
             </div>
     }

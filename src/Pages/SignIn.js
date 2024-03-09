@@ -12,7 +12,7 @@ export const SignIn = () => {
   const handleShow = () => setShow(true);
   return (
     <>
-       {/* <button className="bg-[#fb35c5] text-white  px-6 py-2 rounded-full" onClick={handleShow}> 
+       <button className="bg-[#fb35c5] text-white  px-6 py-2 rounded-full" onClick={handleShow}> 
       Get Started
        </button>
       <Modal show={show} onHide={handleClose}>
@@ -46,7 +46,7 @@ export const SignIn = () => {
             Submit
             </Button>
         </Modal.Footer>
-      </Modal> */}
+      </Modal>
     </>
   )
 }

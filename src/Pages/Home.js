@@ -14,6 +14,7 @@ export const Home = () => {
         {PriceList.map((item) => {
           return (
             <div
+            key={item.name}
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay={item.delay}
@@ -37,6 +38,7 @@ export const Home = () => {
           {Coummunity.map((item) => {
             return (
               <div
+              key={item.title}
               data-aos="fade-right"
               data-aos-delay={item.delay}
               data-aos-easing="ease-in-out"
@@ -71,6 +73,7 @@ export const Home = () => {
           {Speciality.map((item) => {
             return (
               <div
+              key={item.title}
               data-aos="fade-down-right"
               data-aos-delay={item.delay}
               data-aos-easing="ease-in-out"
